@@ -29,12 +29,21 @@
     "access": "public"
   },
   "homepage": "https://github.com/wbhob/nest-middlewares#readme",
+  "peerDependencies": {
+    "@nestjs/common": "^6.0.4 || ^7.6.18",
+    "@nestjs/core": "^6.0.4 || ^7.6.18",
+    "@nestjs/testing": "^6.0.4 || ^7.6.18",
+    "@nestjs/websockets": "^6.0.4 || ^7.6.18",
+    "@typegoose/typegoose": "^6.1.6",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.3"
+  },
   "devDependencies": {
-    "@nestjs/common": "^6.0.2",
-    "@nestjs/core": "^6.0.2",
-    "@nestjs/microservices": "^6.0.2",
-    "@nestjs/testing": "^6.0.2",
-    "@nestjs/websockets": "^6.0.2",
+    "@nestjs/common": "^7.6.18",
+    "@nestjs/core": "^7.6.18",
+    "@nestjs/microservices": "^7.6.18",
+    "@nestjs/testing": "^7.6.18",
+    "@nestjs/websockets": "^7.6.18",
     "@types/chai": "^4.0.5",
     "@types/express": "^4.16.0",
     "@types/express-serve-static-core": "^4.16.0",
